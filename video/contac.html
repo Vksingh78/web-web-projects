@@ -1,0 +1,68 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+
+
+    <link rel="stylesheet" href="contact.css">
+    <script src="cotact.js"></script>
+
+
+</head>
+<body>
+
+
+
+<div class="row">
+<div class="col-xs-12">
+    <div id="left">
+
+        <h1>Contact Me</h1>
+
+        <div class="formbox">
+            <form>
+                <input name="name" type="text" class="short" placeholder="Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'"/>
+                <input name="email" type="text" class="short" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'"/>
+                <input name="subject" type="text" class="feedback-input" placeholder="Subject" onfocus="this.placeholder=''" onblur="this.placeholder='Subject'"/>
+                <textarea name="text" class="feedback-input" placeholder="Message" onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
+                <input type="submit" value="SEND"/>
+            </form>
+
+            <h6> Made by Sukhpreet Singh @Man2OUtd</h6>
+
+        </div>
+
+        </div>
+
+    </div>
+
+    <div id="right">
+        <div id="map">
+
+        </div>
+        <div id="map-overlap">
+            Sukhpreet Singh, <br>
+            College Drive, <br>
+            Saskatoon, SK  S7N 0W5
+            Canada
+            <br>
+            <br>
+            <span>
+                <br> <span id="at">@</span>
+                : Sukhpreet@nomail.com
+            </span>
+
+        </div>
+    </div>
+    <div id="cleared"></div>
+
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDts9C9iWNF83ExezBXJLIJ0g2dwoERg08&callback=initMap"
+        async defer></script>
+        
+        
+
+</body>
+</html>
